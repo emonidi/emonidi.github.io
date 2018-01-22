@@ -10,3 +10,34 @@
 .custom-template span{
     color:red;
 }
+
+body{
+    background: #ebebeb;
+}
+
+#countries input{
+    border-radius: 0px;
+    height: 40px;
+    background: #ebebeb;
+    border:none;
+    border-bottom:solid 1px #333333;
+    box-shadow: none;
+    padding-bottom: 0px;
+    padding-left: 0;
+}
+
+#countries label{
+    transform: translate3d(0,38px,0);
+    font-weight: normal;
+    transition: .3s;
+    font-size: 12px;
+}
+
+#countries.focused label{
+    transform: translate3d(0,12px,0);
+}
+
+#countries .result-list .typeahead-list-item{
+    border-radius: 0px;
+    border:none;
+}

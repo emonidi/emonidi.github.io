@@ -59,7 +59,10 @@ export default class Typeahead{
             input.addEventListener('keyup',debounce(event=> this.searchHandler(event)(this),100),false);
             input.addEventListener('focus',ev=>this.searchHandler(ev)(this),false);
         }
-        input.addEventListener('blur',ev => this.listManager.hide(),true);
+        input.addEventListener('blur',ev => {
+            this.listManager.hide();
+            this.input.value === '' && this.el.setAttribute('class',this.el.getAttribute('class').replace('focused',''));
+        },true);
     }
 
     /**
@@ -77,6 +80,8 @@ export default class Typeahead{
                 }else{
                     scope.listManager.hide();
                 }
+
+                scope.el.setAttribute('class','focused');
         }
     }
 
