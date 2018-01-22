@@ -1,0 +1,64 @@
+{
+  "coverage": "57.5%",
+  "expectCount": 40,
+  "actualCount": 23,
+  "files": {
+    "typeahead/index.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        2
+      ]
+    },
+    "typeahead/js/helpers.js": {
+      "expectCount": 3,
+      "actualCount": 3,
+      "undocumentLines": []
+    },
+    "typeahead/js/list-templates.js": {
+      "expectCount": 3,
+      "actualCount": 0,
+      "undocumentLines": [
+        1,
+        7,
+        14
+      ]
+    },
+    "typeahead/js/listTemplateManager.js": {
+      "expectCount": 7,
+      "actualCount": 6,
+      "undocumentLines": [
+        13
+      ]
+    },
+    "typeahead/js/template.js": {
+      "expectCount": 1,
+      "actualCount": 1,
+      "undocumentLines": []
+    },
+    "typeahead/js/typeahead.js": {
+      "expectCount": 24,
+      "actualCount": 13,
+      "undocumentLines": [
+        8,
+        17,
+        18,
+        174,
+        198,
+        208,
+        209,
+        210,
+        217,
+        228,
+        236
+      ]
+    },
+    "typeahead/tests/typeahead.spec.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        5
+      ]
+    }
+  }
+}

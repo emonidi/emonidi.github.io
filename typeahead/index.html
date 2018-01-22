@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Page Title</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link type="text/css" rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"></style>
+        <link rel="stylesheet" type="text/css" href="typeahead/style/style.css">
+    </head>
+    <body cz-shortcut-listen="true">
+        <div class="navbar">
+            
+        </div>
+        <div class="container">
+           <div class="row">
+                <div class="col-sm-12">
+                    <form>
+                       <div class="form-group">
+                            <typeahead id="countries"
+                                label="Search countries:"
+                                min-symbols="2"
+                                url="https://restcountries.eu/rest/v2/name/"
+                                path-to-title="name"
+                            ></typeahead>
+                       </div>
+                       <div class="form-group">
+                           <typeahead id="books" 
+                                      label="Search books:"
+                                      url="https://www.googleapis.com/books/v1/volumes?q=title:"
+                                      list-wrapper="items"
+                                      path-to-title="volumeInfo.title"
+                                      path-to-subtitle="volumeInfo.authors.0"
+                            >
+                            </typeahead>
+                       </div>
+                       <div class="form-group">
+                           <typeahead id="images"
+                                      label="Search Images:"
+                                      url="https://pixabay.com/api/?per_page=5&key=701784-32f9289147561eabb6180b810&q="                           
+                                      list-wrapper="hits"
+                                      path-to-title="tags"
+                                      path-to-subtitle="user"
+                                      path-to-image="previewURL"
+                           ></typeahead>
+                       </div>
+                       <div id="manual-typeahead"></div>
+                       <div id="selected-address"></div>
+                    </form>
+                </div>
+           </div>
+        </div>
+        <script src="dist/main.js"></script>
+    </body>
+</html>

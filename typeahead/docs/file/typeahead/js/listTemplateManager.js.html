@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../../../">
+  <title data-ice="title">typeahead/js/listTemplateManager.js | typeahead</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+<meta name="description" content="A typeahead tool"><meta property="twitter:card" content="summary"><meta property="twitter:title" content="typeahead"><meta property="twitter:description" content="A typeahead tool"></head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+</header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#js">js</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/typeahead/js/listTemplateManager.js~TypeaheadListManager.html">TypeaheadListManager</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/typeahead/js/typeahead.js~Typeahead.html">Typeahead</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-dashToCamelCase">dashToCamelCase</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getValueFromObjectPath">getValueFromObjectPath</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-titleOnly">titleOnly</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-titleSubtitle">titleSubtitle</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-titleSubtitleImage">titleSubtitleImage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-mainTemplate">mainTemplate</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">typeahead/js/listTemplateManager.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">/**
+ * A class that manages the behaviour of the result list in the ul element
+ */
+export default class TypeaheadListManager{
+    /**
+     * Initializes the class and sets an &quot;el&quot; property 
+     * which is the root of the list e.g. ul
+     * 
+     * @constructor
+     * @param {HTMLElement} listElement 
+     */
+    constructor(listElement){
+        this.el = listElement;
+    }
+
+    /**
+     * Renders the results in the ul 
+     * 
+     * @param {Array} resultList 
+     * @param {Function} template A template function that returns html
+     * @return void
+     */
+    render(resultList,template){
+        this.hide();
+        const html = resultList.map((item)=&gt;{
+            return template(item.title, item.subtitle,item.image);
+        }).join(&apos;&apos;);
+        this.el.innerHTML = html;
+        this.setEvents();
+    }
+    /**
+     * Removes the events of the all the children of the ul 
+     * and sets the html content of the ul to an empty string
+     * 
+     * @return void
+     */
+    hide(){
+        const listElements = this.el.childNodes;
+        for(let i = 0; i &lt; listElements.length; i++){
+            listElements[i].removeEventListener(&apos;click&apos;,this.onItemClickedEvent);
+        }
+        this.el.innerHTML = &apos;&apos;;
+    }
+
+    /**
+     * sets the onItemClickedEvetn (passed from the TypeAhead class) to each of the newly 
+     * created children of the ul element
+     * 
+     * @return void
+     */
+    setEvents(){
+        const listElements = this.el.childNodes;
+        for(let i = 0; i &lt; listElements.length; i++){
+            listElements[i].addEventListener(&apos;mousedown&apos;,this.onItemClickedEvent,true);
+            console.log(listElements[i]);
+        }
+    }
+
+    /**
+     * 
+     * Sends a custom event up the dom with the title of the selected item title
+     * 
+     * @param {Event} callback 
+     */
+     onItemClickedEvent(ev){
+        const event =  new CustomEvent(&apos;itemClicked&apos;,{
+            bubbles:true,
+            cancelable: false,
+            detail:{
+                value:ev.target.parentNode.querySelector(&apos;[data-title]&apos;).innerText}
+            });
+        ev.target.dispatchEvent(event);
+     }
+}</code></pre>
+
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.0.4)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>

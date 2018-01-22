@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl">
+  <title data-ice="title">Home | typeahead</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+<meta name="description" content="A typeahead tool"><meta property="twitter:card" content="summary"><meta property="twitter:title" content="typeahead"><meta property="twitter:description" content="A typeahead tool"></head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+</header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#js">js</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/typeahead/js/listTemplateManager.js~TypeaheadListManager.html">TypeaheadListManager</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/typeahead/js/typeahead.js~Typeahead.html">Typeahead</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-dashToCamelCase">dashToCamelCase</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getValueFromObjectPath">getValueFromObjectPath</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-titleOnly">titleOnly</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-titleSubtitle">titleSubtitle</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-titleSubtitleImage">titleSubtitleImage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-mainTemplate">mainTemplate</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><div data-ice="index" class="github-markdown"><h1 id="es6-webpack-typeahead-component">ES6 Webpack Typeahead Component</h1><p>The component can be initialized in two ways:</p>
+<h2 id="initialize-only-with-html">Initialize only with html</h2><h3 id="in-your-js-file-import-the-typeahead-index-">in your js file import the typeahead index:</h3><pre><code class="lang-javascript"><code class="source-code prettyprint">import &apos;./typeahead&apos;;</code>
+</code></pre>
+<h3 id="in-your-html-file-">in your html file:</h3><pre><code class="lang-html"><code class="source-code prettyprint">    &lt;typeahead id=&quot;countries&quot;
+                label=&quot;Search countries:&quot;
+                min-symbols=&quot;2&quot;
+                url=&quot;https://mybookapi.eu/rest/v2/name/&quot;
+                list-wrapper=&quot;results.hits&quot;
+                path-to-title=&quot;book.title&quot;
+                path-to-subtitle=&quot;book.authors.0&quot;
+                path-to-image=&quot;book.cover.thumbnails.0&quot;
+    &gt;&lt;/typeahead&gt;
+`</code>
+</code></pre>
+<h3 id="html-attributes-">HTML Attributes:</h3><h4 id="label-optional--">label(optional):</h4><p>Sets a label to the input</p>
+<h4 id="min-symbols-">min-symbols:</h4><p>Sets the minimum number of symbols entered in the input before the Ajax request is triggered
+if none is specified 3 is the default one.</p>
+<h3 id="url-">url:</h3><p>The url to which the Ajax request will be made</p>
+<h3 id="list-wrapper-">list-wrapper:</h3><p>The list-wrapper is the key of the resulting Ajax JSONObject in which the array is contained.
+Usualy when a an Ajax request for a list of item is done it comes back either as an array:</p>
+<pre><code class="lang-javascript"><code class="source-code prettyprint">[
+    {
+        title:&apos;Title1&apos;,
+        item:&apos;Item1&apos;
+    },
+     {
+        title:&apos;Title2&apos;,
+        item:&apos;Item2&apos;
+    }
+]</code>
+</code></pre>
+<p>or as an object containing an array:</p>
+<pre><code class="lang-javascript"><code class="source-code prettyprint">{
+    results:{
+        hits:{
+            [
+                {
+                    title:&apos;Title1&apos;,
+                    item:&apos;Item1&apos;
+                },
+                 {
+                    title:&apos;Title2&apos;,
+                    item:&apos;Item2&apos;
+                }
+            ]
+        }
+    }
+}</code>
+</code></pre>
+<p>In order to be able to point the component where exactly is the array we want we need the list-wrapper attribute. </p>
+<h3 id="path-to-title">path-to-title</h3><p>The path to title attribute is a map that shows us where is the value we want to show as a title in the list item layout and respectively fill the input with when the list item is clicked.Given that we already pointed the path to the list in the JSON object then we need to point the path to the title. Say we&apos;ve got the following list:</p>
+<pre><code class="lang-javascript"><code class="source-code prettyprint">{
+    results:{
+        hits:{
+            [
+                {
+                   country:&quot;Germany&quot;,
+                   book:{
+                        title:&quot;Meine lieblings Speisen&quot;,
+                        author:&quot;Max Musterman&quot;
+                   }
+                },
+                {
+                    country:&quot;United Kingdom&quot;
+                    book:{
+                        title:&quot;My favorite dishes&quot;,
+                        author:&quot;John Doe&quot;
+                   }
+                }
+            ]
+        }
+    }
+}
+`</code>
+</code></pre>
+<p>If we want in the title of every item in the suggestion list to be shown the title of the book we would set the path-to-title to:</p>
+<pre><code class="lang-html"><code class="source-code prettyprint">path-to-title=&quot;book.title&quot;
+```</code>
+</code></pre>
+<h3 id="path-to-subtitle">path-to-subtitle</h3><p>Same as the path-to-title attribute but for the second row (subtitle) of the list item</p>
+<h3 id="path-to-image">path-to-image</h3><p>Yes we can also show an image! In case there is an image url we can give the location in this attribute and it will be shown in the list item.</p>
+<h2 id="how-does-it-work-">How does it work?</h2><p>Depending on what path(s)-to- attributes are given in the &lt;typeahead&gt; different templates of the listItem will be initialized and shown:</p>
+<ul>
+<li>one showing only title </li>
+<li>one showing title and subtitle</li>
+<li>one showing image title and subtitle</li>
+</ul>
+<h2 id="initialize-with-js-">Initialize with js:</h2><p>You can initialize the typeahead programatically aswell by following the example below:</p>
+<pre><code class="lang-javascript"><code class="source-code prettyprint">import Typeahead from &apos;./typeahead/js/typeahead&apos;;
+import TypeaheadListManager from &apos;./typeahead/js/listTemplateManager&apos;;
+
+const selectedAddress = document.getElementById(&apos;selected-address&apos;);
+let renderer = new TypeaheadListManager();
+//the custom listItemTempalte function
+//this function must contain as parameters title and/or subtitle and/or image
+//also the string we want to show in the input after clicking on the list item
+//must be marked with data-title attribute in order to find it 
+
+let listItemTemplate = title =&gt; `&lt;div class=&quot;custom-template&quot;&gt;&lt;span class=&quot;title&quot; data-title&gt;${title}&lt;/span&gt;&lt;/div&gt;`;
+
+//initiate a type ahead manualy by querying the element
+let manualTypeahead = new Typeahead(document.getElementById(&apos;manual-typeahead&apos;))
+    //set the url for the ajax data request
+    .setUrl(&apos;https://maps.googleapis.com/maps/api/geocode/json?key=AIzaSyCjm_5NIX5Jr_PGFVO5Te3EHYFPpPG26Qw&amp;address=&apos;)
+    //set the input label if desired
+    .setLabel(&apos;Search Addres:&apos;)
+    //callback when the results from the search are recieved
+    //here we can get the listManager instance from the TypeAhead class instance e.g instance.listManager
+    //format the data from the resultList as we wish 
+    //and invoke the render method of the list manager and show the results
+    .onResultsRecieved((resultList,instance)=&gt;{
+        let formatted  = resultList.results.map((item)=&gt;{return {title:item.formatted_address}});
+        instance.listManager.render(formatted,listItemTemplate);
+    })
+    .onItemClicked((value)=&gt;{
+        selectedAddress.innerHTML = &quot;Selected address: &lt;strong&gt;&quot;+value+&quot;&lt;/strong&gt;&quot;;
+    })
+    .initialize();</code>
+</code></pre>
+</div>
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.0.4)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>

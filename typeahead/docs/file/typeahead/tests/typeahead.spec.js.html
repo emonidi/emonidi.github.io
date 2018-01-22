@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../../../">
+  <title data-ice="title">typeahead/tests/typeahead.spec.js | typeahead</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+<meta name="description" content="A typeahead tool"><meta property="twitter:card" content="summary"><meta property="twitter:title" content="typeahead"><meta property="twitter:description" content="A typeahead tool"></head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+</header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#js">js</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/typeahead/js/listTemplateManager.js~TypeaheadListManager.html">TypeaheadListManager</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/typeahead/js/typeahead.js~Typeahead.html">Typeahead</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-dashToCamelCase">dashToCamelCase</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getValueFromObjectPath">getValueFromObjectPath</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-titleOnly">titleOnly</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-titleSubtitle">titleSubtitle</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-titleSubtitleImage">titleSubtitleImage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-mainTemplate">mainTemplate</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">typeahead/tests/typeahead.spec.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import Typeahead from &apos;../js/typeahead&apos;;
+import TypeaheadListManager from &apos;../js/listTemplateManager&apos;;
+import { setTimeout } from &apos;timers&apos;;
+
+const createElement = (attributes)=&gt;{
+    const el = document.createElement(&apos;typeahead&apos;);
+    if(attributes){
+        Object.keys(attributes).forEach((attr)=&gt;{
+            el.setAttribute(attr,attributes[attr]);
+        })
+    }
+    return new Typeahead(el);
+}
+
+describe(&apos;Typeahead class&apos;,()=&gt;{
+   let typeahead; 
+   beforeEach(()=&gt;{
+        typeahead = createElement();
+   });
+   it(&apos;should instatntiate&apos;,()=&gt;{
+       expect(typeahead).not.toBe(undefined);
+   });
+   describe(&apos;methods&apos;,()=&gt;{
+    beforeEach(()=&gt;{
+        typeahead = createElement({url:&quot;http://example.com&quot;,&apos;path-to-title&apos;:&apos;my.title&apos;});
+    })
+    it(&apos;should set the attributes properly&apos;,()=&gt;{
+        expect(typeahead.attributes).toBeDefined();
+        expect(typeahead.attributes.url).toBeDefined();
+        expect(typeahead.attributes.url).toEqual(&apos;http://example.com&apos;);
+        expect(typeahead.attributes.pathToTitle).toBeDefined();
+        expect(typeahead.attributes.pathToTitle).toEqual(&apos;my.title&apos;);
+    });
+    it(&apos;should call the createTemplate method&apos;,()=&gt;{
+        spyOn(typeahead, &apos;createTemplate&apos;).and.callThrough();
+        typeahead.initialize();
+        expect(typeahead.createTemplate).toHaveBeenCalled();
+    })
+    it(&apos;should call setInputEvents&apos;,()=&gt;{
+        spyOn(typeahead, &apos;setInputEvents&apos;).and.callThrough();
+        typeahead.initialize();
+        expect(typeahead.setInputEvents).toHaveBeenCalled();
+    });
+    it(&apos;after calling initialize there should be an input element,template and list&apos;,()=&gt;{
+        typeahead.initialize();
+        expect(typeahead.template).toBeDefined();
+        expect(typeahead.template instanceof HTMLElement).toBe(true);
+        expect(typeahead.input).toBeDefined();
+        expect(typeahead.input instanceof HTMLElement).toBe(true);
+        expect(typeahead.list).toBeDefined();
+        expect(typeahead.list instanceof HTMLElement).toBe(true);
+    });
+    it(&apos;should have a listManager instance&apos;,()=&gt;{
+         typeahead.initialize();
+         expect(typeahead.listManager).toBeDefined();
+         expect(typeahead.listManager instanceof TypeaheadListManager).toBe(true);
+    });
+   });
+   describe(&apos;setting the list templates&apos;,()=&gt;{
+        it(&apos;the list template to be titleOnly when only title attribute is provided&apos;,()=&gt;{
+            const typeahead = createElement({&apos;url&apos;:&apos;http://example.com&apos;,&apos;path-to-title&apos;:&apos;my.path.to.title&apos;});
+            expect(typeahead.listTemplate()).toContain(&apos;title-only&apos;)
+        });
+
+        it(&apos;the list template to be titleOnly when path-to-title and path-to-subtitle attributes are provided&apos;,()=&gt;{
+            const typeahead = createElement(
+                {
+                    &apos;url&apos;:&apos;http://example.com&apos;,
+                    &apos;path-to-title&apos;:&apos;my.path.to.title&apos;,
+                    &apos;path-to-subtitle&apos;:&apos;my.path.to.title&apos;
+                }
+            );
+            expect(typeahead.listTemplate()).toContain(&apos;title-subtitle&apos;)
+        });
+
+        it(&apos;the list template to be titleOnly when path-to-title and path-to-subtitle attributes are provided&apos;,()=&gt;{
+            const typeahead = createElement(
+                {
+                    &apos;url&apos;:&apos;http://example.com&apos;,
+                    &apos;path-to-title&apos;:&apos;my.path.to.title&apos;,
+                    &apos;path-to-subtitle&apos;:&apos;my.path.to.title&apos;,
+                    &apos;path-to-image&apos;:&apos;path.to.my.image&apos;
+                }
+            );
+            expect(typeahead.listTemplate()).toContain(&apos;title-subtitle-image&apos;)
+        });
+   });
+});</code></pre>
+
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.0.4)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>

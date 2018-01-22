@@ -1,0 +1,114 @@
+[
+  {
+    "name": "TypeaheadListManager#onItemClickedEvent",
+    "filePath": "typeahead/js/listTemplateManager.js",
+    "lines": [
+      {
+        "lineNumber": 58,
+        "line": "    /**"
+      },
+      {
+        "lineNumber": 59,
+        "line": "     * "
+      },
+      {
+        "lineNumber": 60,
+        "line": "     * Sends a custom event up the dom with the title of the selected item title"
+      },
+      {
+        "lineNumber": 61,
+        "line": "     * "
+      },
+      {
+        "lineNumber": 62,
+        "line": "     * @param {Event} callback "
+      },
+      {
+        "lineNumber": 63,
+        "line": "     */"
+      },
+      {
+        "lineNumber": 64,
+        "line": "     onItemClickedEvent(ev){"
+      }
+    ],
+    "codeParams": [
+      "ev"
+    ],
+    "docParams": [
+      "callback"
+    ]
+  },
+  {
+    "name": "Typeahead#setInputEvents",
+    "filePath": "typeahead/js/typeahead.js",
+    "lines": [
+      {
+        "lineNumber": 50,
+        "line": "    /**"
+      },
+      {
+        "lineNumber": 51,
+        "line": "     * sets the events on which the text input should react"
+      },
+      {
+        "lineNumber": 52,
+        "line": "     * "
+      },
+      {
+        "lineNumber": 53,
+        "line": "     * @param {HtmlElement} input;"
+      },
+      {
+        "lineNumber": 54,
+        "line": "     * @returns void"
+      },
+      {
+        "lineNumber": 55,
+        "line": "     */"
+      },
+      {
+        "lineNumber": 56,
+        "line": "    setInputEvents(input){"
+      }
+    ],
+    "codeParams": [
+      "input"
+    ],
+    "docParams": [
+      "input;"
+    ]
+  },
+  {
+    "name": "Typeahead#setUrl",
+    "filePath": "typeahead/js/typeahead.js",
+    "lines": [
+      {
+        "lineNumber": 188,
+        "line": "    /**"
+      },
+      {
+        "lineNumber": 189,
+        "line": "     * Sets the list template"
+      },
+      {
+        "lineNumber": 190,
+        "line": "     * @param {String} template "
+      },
+      {
+        "lineNumber": 191,
+        "line": "     */"
+      },
+      {
+        "lineNumber": 192,
+        "line": "    setUrl(url){"
+      }
+    ],
+    "codeParams": [
+      "url"
+    ],
+    "docParams": [
+      "template"
+    ]
+  }
+]

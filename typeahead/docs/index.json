@@ -1,0 +1,1792 @@
+[
+  {
+    "__docId__": 1,
+    "kind": "external",
+    "name": "Infinity",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Infinity",
+    "memberof": "typeahead/.external-ecmascript.js",
+    "static": true,
+    "longname": "typeahead/.external-ecmascript.js~Infinity",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 2,
+    "kind": "external",
+    "name": "NaN",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN",
+    "memberof": "typeahead/.external-ecmascript.js",
+    "static": true,
+    "longname": "typeahead/.external-ecmascript.js~NaN",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 3,
+    "kind": "external",
+    "name": "undefined",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined",
+    "memberof": "typeahead/.external-ecmascript.js",
+    "static": true,
+    "longname": "typeahead/.external-ecmascript.js~undefined",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 4,
+    "kind": "external",
+    "name": "null",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null",
+    "memberof": "typeahead/.external-ecmascript.js",
+    "static": true,
+    "longname": "typeahead/.external-ecmascript.js~null",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 5,
+    "kind": "external",
+    "name": "Object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "typeahead/.external-ecmascript.js",
+    "static": true,
+    "longname": "typeahead/.external-ecmascript.js~Object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 6,
+    "kind": "external",
+    "name": "object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "typeahead/.external-ecmascript.js",
+    "static": true,
+    "longname": "typeahead/.external-ecmascript.js~object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 7,
+    "kind": "external",
+    "name": "Function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "typeahead/.external-ecmascript.js",
+    "static": true,
+    "longname": "typeahead/.external-ecmascript.js~Function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 8,
+    "kind": "external",
+    "name": "function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "typeahead/.external-ecmascript.js",
+    "static": true,
+    "longname": "typeahead/.external-ecmascript.js~function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 9,
+    "kind": "external",
+    "name": "Boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "typeahead/.external-ecmascript.js",
+    "static": true,
+    "longname": "typeahead/.external-ecmascript.js~Boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 10,
+    "kind": "external",
+    "name": "boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "typeahead/.external-ecmascript.js",
+    "static": true,
+    "longname": "typeahead/.external-ecmascript.js~boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 11,
+    "kind": "external",
+    "name": "Symbol",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol",
+    "memberof": "typeahead/.external-ecmascript.js",
+    "static": true,
+    "longname": "typeahead/.external-ecmascript.js~Symbol",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 12,
+    "kind": "external",
+    "name": "Error",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error",
+    "memberof": "typeahead/.external-ecmascript.js",
+    "static": true,
+    "longname": "typeahead/.external-ecmascript.js~Error",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 13,
+    "kind": "external",
+    "name": "EvalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/EvalError",
+    "memberof": "typeahead/.external-ecmascript.js",
+    "static": true,
+    "longname": "typeahead/.external-ecmascript.js~EvalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 14,
+    "kind": "external",
+    "name": "InternalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/InternalError",
+    "memberof": "typeahead/.external-ecmascript.js",
+    "static": true,
+    "longname": "typeahead/.external-ecmascript.js~InternalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 15,
+    "kind": "external",
+    "name": "RangeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RangeError",
+    "memberof": "typeahead/.external-ecmascript.js",
+    "static": true,
+    "longname": "typeahead/.external-ecmascript.js~RangeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 16,
+    "kind": "external",
+    "name": "ReferenceError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError",
+    "memberof": "typeahead/.external-ecmascript.js",
+    "static": true,
+    "longname": "typeahead/.external-ecmascript.js~ReferenceError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 17,
+    "kind": "external",
+    "name": "SyntaxError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError",
+    "memberof": "typeahead/.external-ecmascript.js",
+    "static": true,
+    "longname": "typeahead/.external-ecmascript.js~SyntaxError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 18,
+    "kind": "external",
+    "name": "TypeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError",
+    "memberof": "typeahead/.external-ecmascript.js",
+    "static": true,
+    "longname": "typeahead/.external-ecmascript.js~TypeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 19,
+    "kind": "external",
+    "name": "URIError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/URIError",
+    "memberof": "typeahead/.external-ecmascript.js",
+    "static": true,
+    "longname": "typeahead/.external-ecmascript.js~URIError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 20,
+    "kind": "external",
+    "name": "Number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "typeahead/.external-ecmascript.js",
+    "static": true,
+    "longname": "typeahead/.external-ecmascript.js~Number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 21,
+    "kind": "external",
+    "name": "number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "typeahead/.external-ecmascript.js",
+    "static": true,
+    "longname": "typeahead/.external-ecmascript.js~number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 22,
+    "kind": "external",
+    "name": "Date",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date",
+    "memberof": "typeahead/.external-ecmascript.js",
+    "static": true,
+    "longname": "typeahead/.external-ecmascript.js~Date",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 23,
+    "kind": "external",
+    "name": "String",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "typeahead/.external-ecmascript.js",
+    "static": true,
+    "longname": "typeahead/.external-ecmascript.js~String",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 24,
+    "kind": "external",
+    "name": "string",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "typeahead/.external-ecmascript.js",
+    "static": true,
+    "longname": "typeahead/.external-ecmascript.js~string",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 25,
+    "kind": "external",
+    "name": "RegExp",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp",
+    "memberof": "typeahead/.external-ecmascript.js",
+    "static": true,
+    "longname": "typeahead/.external-ecmascript.js~RegExp",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 26,
+    "kind": "external",
+    "name": "Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
+    "memberof": "typeahead/.external-ecmascript.js",
+    "static": true,
+    "longname": "typeahead/.external-ecmascript.js~Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 27,
+    "kind": "external",
+    "name": "Int8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int8Array",
+    "memberof": "typeahead/.external-ecmascript.js",
+    "static": true,
+    "longname": "typeahead/.external-ecmascript.js~Int8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 28,
+    "kind": "external",
+    "name": "Uint8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array",
+    "memberof": "typeahead/.external-ecmascript.js",
+    "static": true,
+    "longname": "typeahead/.external-ecmascript.js~Uint8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 29,
+    "kind": "external",
+    "name": "Uint8ClampedArray",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8ClampedArray",
+    "memberof": "typeahead/.external-ecmascript.js",
+    "static": true,
+    "longname": "typeahead/.external-ecmascript.js~Uint8ClampedArray",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 30,
+    "kind": "external",
+    "name": "Int16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int16Array",
+    "memberof": "typeahead/.external-ecmascript.js",
+    "static": true,
+    "longname": "typeahead/.external-ecmascript.js~Int16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 31,
+    "kind": "external",
+    "name": "Uint16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint16Array",
+    "memberof": "typeahead/.external-ecmascript.js",
+    "static": true,
+    "longname": "typeahead/.external-ecmascript.js~Uint16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 32,
+    "kind": "external",
+    "name": "Int32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int32Array",
+    "memberof": "typeahead/.external-ecmascript.js",
+    "static": true,
+    "longname": "typeahead/.external-ecmascript.js~Int32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 33,
+    "kind": "external",
+    "name": "Uint32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint32Array",
+    "memberof": "typeahead/.external-ecmascript.js",
+    "static": true,
+    "longname": "typeahead/.external-ecmascript.js~Uint32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 34,
+    "kind": "external",
+    "name": "Float32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float32Array",
+    "memberof": "typeahead/.external-ecmascript.js",
+    "static": true,
+    "longname": "typeahead/.external-ecmascript.js~Float32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 35,
+    "kind": "external",
+    "name": "Float64Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float64Array",
+    "memberof": "typeahead/.external-ecmascript.js",
+    "static": true,
+    "longname": "typeahead/.external-ecmascript.js~Float64Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 36,
+    "kind": "external",
+    "name": "Map",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map",
+    "memberof": "typeahead/.external-ecmascript.js",
+    "static": true,
+    "longname": "typeahead/.external-ecmascript.js~Map",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 37,
+    "kind": "external",
+    "name": "Set",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set",
+    "memberof": "typeahead/.external-ecmascript.js",
+    "static": true,
+    "longname": "typeahead/.external-ecmascript.js~Set",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 38,
+    "kind": "external",
+    "name": "WeakMap",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap",
+    "memberof": "typeahead/.external-ecmascript.js",
+    "static": true,
+    "longname": "typeahead/.external-ecmascript.js~WeakMap",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 39,
+    "kind": "external",
+    "name": "WeakSet",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakSet",
+    "memberof": "typeahead/.external-ecmascript.js",
+    "static": true,
+    "longname": "typeahead/.external-ecmascript.js~WeakSet",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 40,
+    "kind": "external",
+    "name": "ArrayBuffer",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer",
+    "memberof": "typeahead/.external-ecmascript.js",
+    "static": true,
+    "longname": "typeahead/.external-ecmascript.js~ArrayBuffer",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 41,
+    "kind": "external",
+    "name": "DataView",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DataView",
+    "memberof": "typeahead/.external-ecmascript.js",
+    "static": true,
+    "longname": "typeahead/.external-ecmascript.js~DataView",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 42,
+    "kind": "external",
+    "name": "JSON",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON",
+    "memberof": "typeahead/.external-ecmascript.js",
+    "static": true,
+    "longname": "typeahead/.external-ecmascript.js~JSON",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 43,
+    "kind": "external",
+    "name": "Promise",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
+    "memberof": "typeahead/.external-ecmascript.js",
+    "static": true,
+    "longname": "typeahead/.external-ecmascript.js~Promise",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 44,
+    "kind": "external",
+    "name": "Generator",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator",
+    "memberof": "typeahead/.external-ecmascript.js",
+    "static": true,
+    "longname": "typeahead/.external-ecmascript.js~Generator",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 45,
+    "kind": "external",
+    "name": "GeneratorFunction",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/GeneratorFunction",
+    "memberof": "typeahead/.external-ecmascript.js",
+    "static": true,
+    "longname": "typeahead/.external-ecmascript.js~GeneratorFunction",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 46,
+    "kind": "external",
+    "name": "Reflect",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect",
+    "memberof": "typeahead/.external-ecmascript.js",
+    "static": true,
+    "longname": "typeahead/.external-ecmascript.js~Reflect",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 47,
+    "kind": "external",
+    "name": "Proxy",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy",
+    "memberof": "typeahead/.external-ecmascript.js",
+    "static": true,
+    "longname": "typeahead/.external-ecmascript.js~Proxy",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 48,
+    "kind": "file",
+    "name": "typeahead/index.js",
+    "content": "import Typeahead from './js/typeahead';\nlet elements = document.querySelectorAll('typeahead');\nelements.forEach((el)=>{\n    new Typeahead(el);\n});",
+    "static": true,
+    "longname": "/Users/ego/experimental/typeahead/typeahead/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 49,
+    "kind": "variable",
+    "name": "elements",
+    "memberof": "typeahead/index.js",
+    "static": true,
+    "longname": "typeahead/index.js~elements",
+    "access": "public",
+    "export": false,
+    "importPath": "typeahead/typeahead/index.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 2,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 50,
+    "kind": "file",
+    "name": "typeahead/js/helpers.js",
+    "content": "/**\n * Transforms a \"string\" to \"String\"\n * @param {String} string \n * @returns {String}\n */\nconst toUpperFirstCase = function(string){\n    return [string.charAt(0).toUpperCase(),string.slice(1)].join('');\n}\n\n/**\n * Transforms \"this-string\" to \"thisString\" or\n * this-long-attribute-name to \"thisLongAttributeName\"\n * @param {String} string \n * @return {String}\n */\nexport function dashToCamelCase(string){\n    let split = string.split('-');\n    let array = [];\n    if(split.length > 1){\n        return split.map((item,index)=>{\n            if(index > 0){\n                return toUpperFirstCase(item);\n            }else{\n                return item;\n            }\n        }).join('');\n    }else{\n      return string;\n    }\n}\n\n/**\n * It takes a map to an subobject in a literal e.g. \"my.nested.object\"\n * and an object literal eg. \"{my:{nested:{object:\"something\"}}\"\n * and returns the value of the subobject e.g. \"something\"\n * \n * @param {Strins} objectPath \n * @param {Obejct} object\n * @return {*}\n */\n\nexport function getValueFromObjectPath(objectPath,object){\n    if(!objectPath) return object;\n    var path = objectPath.split('.');\n    var value = getValue(object,path);\n    \n    function getValue(obj,path){\n        if(path.length === 0){\n            return obj;\n        }else{\n          return obj ? getValue(obj[path.splice(0,1)],path) : null\n        }\n    }\n\n    return value;\n}",
+    "static": true,
+    "longname": "/Users/ego/experimental/typeahead/typeahead/js/helpers.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 51,
+    "kind": "function",
+    "name": "toUpperFirstCase",
+    "memberof": "typeahead/js/helpers.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "typeahead/js/helpers.js~toUpperFirstCase",
+    "access": "public",
+    "export": false,
+    "importPath": "typeahead/typeahead/js/helpers.js",
+    "importStyle": null,
+    "description": "Transforms a \"string\" to \"String\"",
+    "lineNumber": 6,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{String}"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "string",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "String"
+      ],
+      "spread": false,
+      "description": ""
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 52,
+    "kind": "function",
+    "name": "dashToCamelCase",
+    "memberof": "typeahead/js/helpers.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "typeahead/js/helpers.js~dashToCamelCase",
+    "access": "public",
+    "export": true,
+    "importPath": "typeahead/typeahead/js/helpers.js",
+    "importStyle": "{dashToCamelCase}",
+    "description": "Transforms \"this-string\" to \"thisString\" or\nthis-long-attribute-name to \"thisLongAttributeName\"",
+    "lineNumber": 16,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "string",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "String"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 53,
+    "kind": "function",
+    "name": "getValueFromObjectPath",
+    "memberof": "typeahead/js/helpers.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "typeahead/js/helpers.js~getValueFromObjectPath",
+    "access": "public",
+    "export": true,
+    "importPath": "typeahead/typeahead/js/helpers.js",
+    "importStyle": "{getValueFromObjectPath}",
+    "description": "It takes a map to an subobject in a literal e.g. \"my.nested.object\"\nand an object literal eg. \"{my:{nested:{object:\"something\"}}\"\nand returns the value of the subobject e.g. \"something\"",
+    "lineNumber": 42,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Strins"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "objectPath",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Obejct"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "object",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "*"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 54,
+    "kind": "file",
+    "name": "typeahead/js/list-templates.js",
+    "content": "export const titleOnly = (title) => {\n   return `<button class=\"typeahead-list-item title-only list-group-item\">\n       <div class=\"title strong\"><strong data-title>${title}</strong></div>\n    </button>`;\n}\n\nexport const titleSubtitle = (title,subtitle) => {\n    return `<button class=\"typeahead-list-item title-subtitle list-group-item\">\n        <div class=\"title\"><strong data-title>${title}</strong></div>\n        <div class=\"subtitle\">${subtitle}</div>\n    </button>`;\n};\n\nexport const titleSubtitleImage = (title,subtitle,image) => {\n    return `<button class=\"typeahead-list-item title-subtitle-image list-group-item\">\n        <div clas=\"row\">\n            <div class=\"col-xs-2 image-holder\">\n                <img class=\"img-fluid img-thumbnail rounded mx-auto d-block\" src='${image}'/>\n            </div>\n            <div class=\"col-xs-10 text-holder\">\n                <div class=\"title\"><strong data-title>${title}</strong></div>\n                <div class=\"subtitle\">${subtitle}</div>\n            </div>\n        </div>\n</button>`\n};",
+    "static": true,
+    "longname": "/Users/ego/experimental/typeahead/typeahead/js/list-templates.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 55,
+    "kind": "function",
+    "name": "titleOnly",
+    "memberof": "typeahead/js/list-templates.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "typeahead/js/list-templates.js~titleOnly",
+    "access": "public",
+    "export": true,
+    "importPath": "typeahead/typeahead/js/list-templates.js",
+    "importStyle": "{titleOnly}",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "params": [
+      {
+        "name": "title",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "string"
+      ]
+    }
+  },
+  {
+    "__docId__": 56,
+    "kind": "function",
+    "name": "titleSubtitle",
+    "memberof": "typeahead/js/list-templates.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "typeahead/js/list-templates.js~titleSubtitle",
+    "access": "public",
+    "export": true,
+    "importPath": "typeahead/typeahead/js/list-templates.js",
+    "importStyle": "{titleSubtitle}",
+    "description": null,
+    "lineNumber": 7,
+    "undocument": true,
+    "params": [
+      {
+        "name": "title",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "subtitle",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "string"
+      ]
+    }
+  },
+  {
+    "__docId__": 57,
+    "kind": "function",
+    "name": "titleSubtitleImage",
+    "memberof": "typeahead/js/list-templates.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "typeahead/js/list-templates.js~titleSubtitleImage",
+    "access": "public",
+    "export": true,
+    "importPath": "typeahead/typeahead/js/list-templates.js",
+    "importStyle": "{titleSubtitleImage}",
+    "description": null,
+    "lineNumber": 14,
+    "undocument": true,
+    "params": [
+      {
+        "name": "title",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "subtitle",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "image",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "string"
+      ]
+    }
+  },
+  {
+    "__docId__": 58,
+    "kind": "file",
+    "name": "typeahead/js/listTemplateManager.js",
+    "content": "/**\n * A class that manages the behaviour of the result list in the ul element\n */\nexport default class TypeaheadListManager{\n    /**\n     * Initializes the class and sets an \"el\" property \n     * which is the root of the list e.g. ul\n     * \n     * @constructor\n     * @param {HTMLElement} listElement \n     */\n    constructor(listElement){\n        this.el = listElement;\n    }\n\n    /**\n     * Renders the results in the ul \n     * \n     * @param {Array} resultList \n     * @param {Function} template A template function that returns html\n     * @return void\n     */\n    render(resultList,template){\n        this.hide();\n        const html = resultList.map((item)=>{\n            return template(item.title, item.subtitle,item.image);\n        }).join('');\n        this.el.innerHTML = html;\n        this.setEvents();\n    }\n    /**\n     * Removes the events of the all the children of the ul \n     * and sets the html content of the ul to an empty string\n     * \n     * @return void\n     */\n    hide(){\n        const listElements = this.el.childNodes;\n        for(let i = 0; i < listElements.length; i++){\n            listElements[i].removeEventListener('click',this.onItemClickedEvent);\n        }\n        this.el.innerHTML = '';\n    }\n\n    /**\n     * sets the onItemClickedEvetn (passed from the TypeAhead class) to each of the newly \n     * created children of the ul element\n     * \n     * @return void\n     */\n    setEvents(){\n        const listElements = this.el.childNodes;\n        for(let i = 0; i < listElements.length; i++){\n            listElements[i].addEventListener('mousedown',this.onItemClickedEvent,true);\n            console.log(listElements[i]);\n        }\n    }\n\n    /**\n     * \n     * Sends a custom event up the dom with the title of the selected item title\n     * \n     * @param {Event} callback \n     */\n     onItemClickedEvent(ev){\n        const event =  new CustomEvent('itemClicked',{\n            bubbles:true,\n            cancelable: false,\n            detail:{\n                value:ev.target.parentNode.querySelector('[data-title]').innerText}\n            });\n        ev.target.dispatchEvent(event);\n     }\n}",
+    "static": true,
+    "longname": "/Users/ego/experimental/typeahead/typeahead/js/listTemplateManager.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 59,
+    "kind": "class",
+    "name": "TypeaheadListManager",
+    "memberof": "typeahead/js/listTemplateManager.js",
+    "static": true,
+    "longname": "typeahead/js/listTemplateManager.js~TypeaheadListManager",
+    "access": "public",
+    "export": true,
+    "importPath": "typeahead/typeahead/js/listTemplateManager.js",
+    "importStyle": "TypeaheadListManager",
+    "description": "A class that manages the behaviour of the result list in the ul element",
+    "lineNumber": 4,
+    "interface": false
+  },
+  {
+    "__docId__": 60,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "typeahead/js/listTemplateManager.js~TypeaheadListManager",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "typeahead/js/listTemplateManager.js~TypeaheadListManager#constructor",
+    "access": "public",
+    "description": "Initializes the class and sets an \"el\" property \nwhich is the root of the list e.g. ul",
+    "lineNumber": 12,
+    "unknown": [
+      {
+        "tagName": "@constructor",
+        "tagValue": ""
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "HTMLElement"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "listElement",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "__docId__": 61,
+    "kind": "member",
+    "name": "el",
+    "memberof": "typeahead/js/listTemplateManager.js~TypeaheadListManager",
+    "static": false,
+    "longname": "typeahead/js/listTemplateManager.js~TypeaheadListManager#el",
+    "access": "public",
+    "description": null,
+    "lineNumber": 13,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 62,
+    "kind": "method",
+    "name": "render",
+    "memberof": "typeahead/js/listTemplateManager.js~TypeaheadListManager",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "typeahead/js/listTemplateManager.js~TypeaheadListManager#render",
+    "access": "public",
+    "description": "Renders the results in the ul ",
+    "lineNumber": 23,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Array"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "resultList",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Function"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "template",
+        "description": "A template function that returns html"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "*"
+      ],
+      "spread": false,
+      "description": "void"
+    }
+  },
+  {
+    "__docId__": 63,
+    "kind": "method",
+    "name": "hide",
+    "memberof": "typeahead/js/listTemplateManager.js~TypeaheadListManager",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "typeahead/js/listTemplateManager.js~TypeaheadListManager#hide",
+    "access": "public",
+    "description": "Removes the events of the all the children of the ul \nand sets the html content of the ul to an empty string",
+    "lineNumber": 37,
+    "return": {
+      "nullable": null,
+      "types": [
+        "*"
+      ],
+      "spread": false,
+      "description": "void"
+    },
+    "params": []
+  },
+  {
+    "__docId__": 64,
+    "kind": "method",
+    "name": "setEvents",
+    "memberof": "typeahead/js/listTemplateManager.js~TypeaheadListManager",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "typeahead/js/listTemplateManager.js~TypeaheadListManager#setEvents",
+    "access": "public",
+    "description": "sets the onItemClickedEvetn (passed from the TypeAhead class) to each of the newly \ncreated children of the ul element",
+    "lineNumber": 51,
+    "return": {
+      "nullable": null,
+      "types": [
+        "*"
+      ],
+      "spread": false,
+      "description": "void"
+    },
+    "params": []
+  },
+  {
+    "__docId__": 65,
+    "kind": "method",
+    "name": "onItemClickedEvent",
+    "memberof": "typeahead/js/listTemplateManager.js~TypeaheadListManager",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "typeahead/js/listTemplateManager.js~TypeaheadListManager#onItemClickedEvent",
+    "access": "public",
+    "description": "\nSends a custom event up the dom with the title of the selected item title",
+    "lineNumber": 65,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Event"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "callback",
+        "description": ""
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 66,
+    "kind": "file",
+    "name": "typeahead/js/template.js",
+    "content": "/**\n * Creates an instance of an HTMLElement containing the input, label and ul element\n * of the typeahead\n * \n * @param {String | null} label the label of the search input if such is desired\n * @returns {HTMLElement} container\n */\nexport default function mainTemplate(label){\n    const container = document.createElement('div');\n    container.setAttribute('class','typeahead');\n    \n    if(label){\n        const elementLabel = document.createElement('label');\n        elementLabel.innerText = label;\n        container.appendChild(elementLabel);\n    }\n    const input = document.createElement('input');\n    input.setAttribute('class','form-control');\n\n    const resultList = document.createElement('ul');\n    resultList.setAttribute('class','result-list list-group');\n\n    container.appendChild(input);\n    container.appendChild(resultList);\n    return container;\n}",
+    "static": true,
+    "longname": "/Users/ego/experimental/typeahead/typeahead/js/template.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 67,
+    "kind": "function",
+    "name": "mainTemplate",
+    "memberof": "typeahead/js/template.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "typeahead/js/template.js~mainTemplate",
+    "access": "public",
+    "export": true,
+    "importPath": "typeahead/typeahead/js/template.js",
+    "importStyle": "mainTemplate",
+    "description": "Creates an instance of an HTMLElement containing the input, label and ul element\nof the typeahead",
+    "lineNumber": 8,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{HTMLElement} container"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "String ",
+          " null"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "label",
+        "description": "the label of the search input if such is desired"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "HTMLElement"
+      ],
+      "spread": false,
+      "description": "container"
+    }
+  },
+  {
+    "__docId__": 68,
+    "kind": "file",
+    "name": "typeahead/js/typeahead.js",
+    "content": "import mainTemplate from './template';\nimport {dashToCamelCase, getValueFromObjectPath} from './helpers';\nimport TypeaheadListManager from './listTemplateManager';\nimport * as listTemplates from './list-templates';\nimport debounce from 'lodash.debounce';\n\n\nexport default class Typeahead{\n    /**\n     * A constructor of the Typeahead class\n     * \n     * @constructor\n     * @param {HTMLElement} el \n     * \n     */\n    constructor(el){\n      this.el = el;\n      this.attributes  = this.setAttributesObject(el.attributes);\n      if(this.attributes.url){\n        this.initialize();\n      }\n    }\n\n    /**\n     * Converts the Map of the element attributes to a simple \n     * object literal which can be easely reffered in the class\n     * \n     * @param {NodeMap} attributes \n     * @returns Object \n     */\n    setAttributesObject(attributes){\n        let attributesObject = {};\n        for(let i = 0; i < attributes.length; i++){\n           let attributeName = dashToCamelCase(attributes[i].nodeName); \n           attributesObject[attributeName] = attributes[i].value;\n        }\n        return attributesObject;\n    }\n\n    /** \n       returns an istantiated HtmlElement containing the tempalte for the typeahead\n       consisting of a label (if provided), a text input and an unordered list\n\n       @param {String} label - the label before the text input\n       @returns {Function} mainTemplate\n    */\n    createTemplate(label){\n        return mainTemplate(label);\n    }\n\n    /**\n     * sets the events on which the text input should react\n     * \n     * @param {HtmlElement} input;\n     * @returns void\n     */\n    setInputEvents(input){\n        if(this.attributes.url){\n            input.addEventListener('keyup',debounce(event=> this.searchHandler(event)(this),100),false);\n            input.addEventListener('focus',ev=>this.searchHandler(ev)(this),false);\n        }\n        input.addEventListener('blur',ev => this.listManager.hide(),true);\n    }\n\n    /**\n     * A closure implementation of the keyup and focus event triggered by the input\n     * \n     * @param {Event} event \n     * @returns {Function}\n     */\n    searchHandler(event){\n        return function(scope){\n            let query = event.target.value;\n                let symbolCount = scope.attributes.minSymbols || 3;\n                if(query.length >= symbolCount){\n                    scope.search(query)\n                }else{\n                    scope.listManager.hide();\n                }\n        }\n    }\n\n    /**\n     * makes an ajax request to the url (this.attributes.url)\n     * and when it takes recieves the resulting JSON it calls \n     * the mapToListItemInterface method.\n     * \n     * @param {String} query \n     * @returns void\n     *\n     */\n    search(query){   \n        if(this.attributes.url){\n            fetch(this.attributes.url+query)\n            .then(res=> res.ok ? res.json() : null, err => this.listManager.close)\n            .then((result)=>{\n                if(this.onResultsRecievedHandler){\n                    this.onResultsRecievedHandler(result,this);\n                    return;\n                }\n                if(!result){\n                    this.listManager.hide();\n                    return;\n                };\n                let resultList = this.mapToListItemInterface(result);\n                if(!resultList){\n                    this.listManager.hide();\n                    return;\n                }\n                \n                this.listManager.render(resultList,this.listTemplate);\n            },err=>this.listManager.close)\n        }\n    }\n\n    /**\n     *  \n     * Accepts as a parameter array or object.\n     * Since we we are looking for an API that would list things the \n     * resultObject could be be an object but it would contain the list\n     * like {wrapper:{object:[{listitems,listitems,listitems}]}}, \n     * so we check if its only an array or not.\n     * If it is not an array we find the array by calling the getValueFromObjectPath\n     * whith the value of the listWrapper attribute e.g. 'wrapper.object' and the result \n     * object which would return only the [{listitems,listitems,listitems}] part of \n     * its object.\n     * Then we iterate over the array and with the help of the \n     * pathToTitle attribute we find the value we have to show as title and we do the same for\n     * pathToSubtitle, and pathToImage and generate new array which contains objects with the \n     * following structure:\n     * {title, subtitle, picture}\n     * \n     * @param {Array,Object} resultObject \n     */\n    mapToListItemInterface(resultObject){\n        let list;\n        if(Array.isArray(resultObject)){\n            list = resultObject;\n        }else{\n            list = getValueFromObjectPath(this.attributes.listWrapper,resultObject);\n        }\n        if(!list || list.length === 0) return null;\n        \n        return list.map((item)=>{\n            let obj = {};\n            if(this.attributes.pathToTitle){\n                obj.title = getValueFromObjectPath(this.attributes.pathToTitle,item);\n            }\n            if(this.attributes.pathToSubtitle){\n                obj.subtitle =  getValueFromObjectPath(this.attributes.pathToSubtitle,item);\n            }\n            if(this.attributes.pathToImage){\n                obj.image = getValueFromObjectPath(this.attributes.pathToImage,item);\n            }\n            return obj;\n        });\n    }\n\n    /**\n     * \n     * \n     * @param {Function | null} template - it shoudl be a function returning \n     * an with strings as params, returnning HTML string, if the param is null\n     * then it is going to figure out which template to set based on what the \n     * pathToTitle, pathToImage and pathToImageParams are\n     * \n     * Sets the list template\n     * In case that the setListTemplate(template) is called from outside this class\n     * it is going to return \"this\" to allow method chaining \n     * \n     */\n    setListTemplate(template){\n        if(template){\n            this.listTemplate = template;\n            return this;\n        }else{\n            if(this.attributes.pathToTitle && !this.attributes.pathToSubtitle && !this.attributes.pathToImage){\n                this.listTemplate = listTemplates.titleOnly\n            }\n            if(this.attributes.pathToTitle && this.attributes.pathToSubtitle && !this.attributes.pathToImage){\n                this.listTemplate = listTemplates.titleSubtitle;\n            }    \n            if(this.attributes.pathToTitle && this.attributes.pathToSubtitle && this.attributes.pathToImage){\n                this.listTemplate = listTemplates.titleSubtitleImage;\n            }        \n        }\n    }\n\n    /**\n     * Sets the list template\n     * @param {String} template \n     */\n    setUrl(url){\n        this.attributes.url = url;\n        return this;\n    }\n\n    setLabel(label){\n        this.attributes.label = label;\n        return this;\n    }\n    /**\n     * Method to initialize the class. It is not in the constructor to allow \n     * overriding calls and finally to call initialize\n     * \n     */\n    initialize(){\n        this.template = this.createTemplate(this.attributes.label);\n        this.input = this.template.querySelector('input');\n        this.list = this.template.querySelector('ul');\n        this.setListTemplate();\n        this.setInputEvents(this.input);\n        this.setListManager();\n        this.template.addEventListener('itemClicked',(ev)=>{\n            console.log(ev.detail);\n            this.input.value = ev.detail.value;\n            this.onItemClickedHandler && this.onItemClickedHandler(ev.detail.value);\n        });\n        this.el.appendChild(this.template);\n        return this;\n    }\n\n    /**\n     * A callback called when the results are recieced from the Ajax call\n     * @param {Function} callback \n     */\n    onResultsRecieved(callback){\n        this.onResultsRecievedHandler = callback;\n        return this;\n    }\n    /**\n     * \n     * @param {TypeaheadListManager instance} listManager \n     */\n    setListManager(listManager){\n        this.listManager = new TypeaheadListManager(this.list);\n        return this;\n    }\n    /** Sets a callback when an listItem is clicked */\n    onItemClicked(callback){\n        this.onItemClickedHandler = callback;\n        return this;\n    }\n}\n\n",
+    "static": true,
+    "longname": "/Users/ego/experimental/typeahead/typeahead/js/typeahead.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 69,
+    "kind": "class",
+    "name": "Typeahead",
+    "memberof": "typeahead/js/typeahead.js",
+    "static": true,
+    "longname": "typeahead/js/typeahead.js~Typeahead",
+    "access": "public",
+    "export": true,
+    "importPath": "typeahead/typeahead/js/typeahead.js",
+    "importStyle": "Typeahead",
+    "description": null,
+    "lineNumber": 8,
+    "undocument": true,
+    "interface": false
+  },
+  {
+    "__docId__": 70,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "typeahead/js/typeahead.js~Typeahead",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "typeahead/js/typeahead.js~Typeahead#constructor",
+    "access": "public",
+    "description": "A constructor of the Typeahead class",
+    "lineNumber": 16,
+    "unknown": [
+      {
+        "tagName": "@constructor",
+        "tagValue": ""
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "HTMLElement"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "el",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "__docId__": 71,
+    "kind": "member",
+    "name": "el",
+    "memberof": "typeahead/js/typeahead.js~Typeahead",
+    "static": false,
+    "longname": "typeahead/js/typeahead.js~Typeahead#el",
+    "access": "public",
+    "description": null,
+    "lineNumber": 17,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 72,
+    "kind": "member",
+    "name": "attributes",
+    "memberof": "typeahead/js/typeahead.js~Typeahead",
+    "static": false,
+    "longname": "typeahead/js/typeahead.js~Typeahead#attributes",
+    "access": "public",
+    "description": null,
+    "lineNumber": 18,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 73,
+    "kind": "method",
+    "name": "setAttributesObject",
+    "memberof": "typeahead/js/typeahead.js~Typeahead",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "typeahead/js/typeahead.js~Typeahead#setAttributesObject",
+    "access": "public",
+    "description": "Converts the Map of the element attributes to a simple \nobject literal which can be easely reffered in the class",
+    "lineNumber": 31,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "Object "
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "NodeMap"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "attributes",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "*"
+      ],
+      "spread": false,
+      "description": "Object"
+    }
+  },
+  {
+    "__docId__": 74,
+    "kind": "method",
+    "name": "createTemplate",
+    "memberof": "typeahead/js/typeahead.js~Typeahead",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "typeahead/js/typeahead.js~Typeahead#createTemplate",
+    "access": "public",
+    "description": "returns an istantiated HtmlElement containing the tempalte for the typeahead\nconsisting of a label (if provided), a text input and an unordered list",
+    "lineNumber": 47,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{Function} mainTemplate"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "label",
+        "description": "the label before the text input"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Function"
+      ],
+      "spread": false,
+      "description": "mainTemplate"
+    }
+  },
+  {
+    "__docId__": 75,
+    "kind": "method",
+    "name": "setInputEvents",
+    "memberof": "typeahead/js/typeahead.js~Typeahead",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "typeahead/js/typeahead.js~Typeahead#setInputEvents",
+    "access": "public",
+    "description": "sets the events on which the text input should react",
+    "lineNumber": 57,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "void"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "HtmlElement"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "input;",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "*"
+      ],
+      "spread": false,
+      "description": "void"
+    }
+  },
+  {
+    "__docId__": 76,
+    "kind": "method",
+    "name": "searchHandler",
+    "memberof": "typeahead/js/typeahead.js~Typeahead",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "typeahead/js/typeahead.js~Typeahead#searchHandler",
+    "access": "public",
+    "description": "A closure implementation of the keyup and focus event triggered by the input",
+    "lineNumber": 71,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{Function}"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Event"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "event",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Function"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 77,
+    "kind": "method",
+    "name": "search",
+    "memberof": "typeahead/js/typeahead.js~Typeahead",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "typeahead/js/typeahead.js~Typeahead#search",
+    "access": "public",
+    "description": "makes an ajax request to the url (this.attributes.url)\nand when it takes recieves the resulting JSON it calls \nthe mapToListItemInterface method.",
+    "lineNumber": 92,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "void"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "query",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "*"
+      ],
+      "spread": false,
+      "description": "void"
+    }
+  },
+  {
+    "__docId__": 78,
+    "kind": "method",
+    "name": "mapToListItemInterface",
+    "memberof": "typeahead/js/typeahead.js~Typeahead",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "typeahead/js/typeahead.js~Typeahead#mapToListItemInterface",
+    "access": "public",
+    "description": " \nAccepts as a parameter array or object.\nSince we we are looking for an API that would list things the \nresultObject could be be an object but it would contain the list\nlike {wrapper:{object:[{listitems,listitems,listitems}]}}, \nso we check if its only an array or not.\nIf it is not an array we find the array by calling the getValueFromObjectPath\nwhith the value of the listWrapper attribute e.g. 'wrapper.object' and the result \nobject which would return only the [{listitems,listitems,listitems}] part of \nits object.\nThen we iterate over the array and with the help of the \npathToTitle attribute we find the value we have to show as title and we do the same for\npathToSubtitle, and pathToImage and generate new array which contains objects with the \nfollowing structure:\n{title, subtitle, picture}",
+    "lineNumber": 135,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Array,Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "resultObject",
+        "description": ""
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 79,
+    "kind": "method",
+    "name": "setListTemplate",
+    "memberof": "typeahead/js/typeahead.js~Typeahead",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "typeahead/js/typeahead.js~Typeahead#setListTemplate",
+    "access": "public",
+    "description": "",
+    "lineNumber": 172,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Function ",
+          " null"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "template",
+        "description": "it shoudl be a function returning \nan with strings as params, returnning HTML string, if the param is null\nthen it is going to figure out which template to set based on what the \npathToTitle, pathToImage and pathToImageParams are\n\nSets the list template\nIn case that the setListTemplate(template) is called from outside this class\nit is going to return \"this\" to allow method chaining"
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 80,
+    "kind": "member",
+    "name": "listTemplate",
+    "memberof": "typeahead/js/typeahead.js~Typeahead",
+    "static": false,
+    "longname": "typeahead/js/typeahead.js~Typeahead#listTemplate",
+    "access": "public",
+    "description": null,
+    "lineNumber": 174,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 84,
+    "kind": "method",
+    "name": "setUrl",
+    "memberof": "typeahead/js/typeahead.js~Typeahead",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "typeahead/js/typeahead.js~Typeahead#setUrl",
+    "access": "public",
+    "description": "Sets the list template",
+    "lineNumber": 193,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "template",
+        "description": ""
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 85,
+    "kind": "method",
+    "name": "setLabel",
+    "memberof": "typeahead/js/typeahead.js~Typeahead",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "typeahead/js/typeahead.js~Typeahead#setLabel",
+    "access": "public",
+    "description": null,
+    "lineNumber": 198,
+    "undocument": true,
+    "params": [
+      {
+        "name": "label",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 86,
+    "kind": "method",
+    "name": "initialize",
+    "memberof": "typeahead/js/typeahead.js~Typeahead",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "typeahead/js/typeahead.js~Typeahead#initialize",
+    "access": "public",
+    "description": "Method to initialize the class. It is not in the constructor to allow \noverriding calls and finally to call initialize",
+    "lineNumber": 207,
+    "params": [],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 87,
+    "kind": "member",
+    "name": "template",
+    "memberof": "typeahead/js/typeahead.js~Typeahead",
+    "static": false,
+    "longname": "typeahead/js/typeahead.js~Typeahead#template",
+    "access": "public",
+    "description": null,
+    "lineNumber": 208,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 88,
+    "kind": "member",
+    "name": "input",
+    "memberof": "typeahead/js/typeahead.js~Typeahead",
+    "static": false,
+    "longname": "typeahead/js/typeahead.js~Typeahead#input",
+    "access": "public",
+    "description": null,
+    "lineNumber": 209,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 89,
+    "kind": "member",
+    "name": "list",
+    "memberof": "typeahead/js/typeahead.js~Typeahead",
+    "static": false,
+    "longname": "typeahead/js/typeahead.js~Typeahead#list",
+    "access": "public",
+    "description": null,
+    "lineNumber": 210,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 90,
+    "kind": "member",
+    "name": "onItemClickedHandler",
+    "memberof": "typeahead/js/typeahead.js~Typeahead",
+    "static": false,
+    "longname": "typeahead/js/typeahead.js~Typeahead#onItemClickedHandler",
+    "access": "public",
+    "description": null,
+    "lineNumber": 217,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 91,
+    "kind": "method",
+    "name": "onResultsRecieved",
+    "memberof": "typeahead/js/typeahead.js~Typeahead",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "typeahead/js/typeahead.js~Typeahead#onResultsRecieved",
+    "access": "public",
+    "description": "A callback called when the results are recieced from the Ajax call",
+    "lineNumber": 227,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Function"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "callback",
+        "description": ""
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 92,
+    "kind": "member",
+    "name": "onResultsRecievedHandler",
+    "memberof": "typeahead/js/typeahead.js~Typeahead",
+    "static": false,
+    "longname": "typeahead/js/typeahead.js~Typeahead#onResultsRecievedHandler",
+    "access": "public",
+    "description": null,
+    "lineNumber": 228,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 93,
+    "kind": "method",
+    "name": "setListManager",
+    "memberof": "typeahead/js/typeahead.js~Typeahead",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "typeahead/js/typeahead.js~Typeahead#setListManager",
+    "access": "public",
+    "description": "",
+    "lineNumber": 235,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "TypeaheadListManager instance"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "listManager",
+        "description": ""
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 94,
+    "kind": "member",
+    "name": "listManager",
+    "memberof": "typeahead/js/typeahead.js~Typeahead",
+    "static": false,
+    "longname": "typeahead/js/typeahead.js~Typeahead#listManager",
+    "access": "public",
+    "description": null,
+    "lineNumber": 236,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 95,
+    "kind": "method",
+    "name": "onItemClicked",
+    "memberof": "typeahead/js/typeahead.js~Typeahead",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "typeahead/js/typeahead.js~Typeahead#onItemClicked",
+    "access": "public",
+    "description": "Sets a callback when an listItem is clicked",
+    "lineNumber": 240,
+    "params": [
+      {
+        "name": "callback",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 97,
+    "kind": "file",
+    "name": "typeahead/tests/helpers.spec.js",
+    "content": "import {dashToCamelCase, getValueFromObjectPath} from '../js/helpers';\n\ndescribe('helpers',()=>{\n    describe('dastToCamelCase',()=>{\n        it('should return same string when no dash is in input param',()=>{\n            let result = dashToCamelCase('string');\n            expect(result).toEqual('string');\n        });\n        it('should return camelCase string when input param with dash is given',()=>{\n            let result = dashToCamelCase('very-long-and-hairy-string-is-this');\n            expect(result).toEqual('veryLongAndHairyStringIsThis');\n        });\n    });\n\n    describe('getValueFromObjectPath',()=>{\n        let object = {\n            my:{\n                very:{\n                    very:{\n                        deep:{\n                            object:['Yeah!']\n                        }\n                    }\n                }\n            }\n        }\n        it('should return the same object if path is null',()=>{\n            let result = getValueFromObjectPath(null,object);\n            expect(result).toEqual(object);\n        });\n        it('should return [\\'Yeah!\\] when path is my.very.very.deep.object',()=>{\n            let result = getValueFromObjectPath('my.very.very.deep.object',object);\n            expect(result).toEqual(['Yeah!']);\n        });\n        it('should return \\'Yeah!\\ when path is my.very.very.deep.object.0',()=>{\n            let result = getValueFromObjectPath('my.very.very.deep.object.0',object);\n            expect(result).toEqual('Yeah!');\n        });\n    });\n})",
+    "static": true,
+    "longname": "/Users/ego/experimental/typeahead/typeahead/tests/helpers.spec.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 98,
+    "kind": "file",
+    "name": "typeahead/tests/typeahead.spec.js",
+    "content": "import Typeahead from '../js/typeahead';\nimport TypeaheadListManager from '../js/listTemplateManager';\nimport { setTimeout } from 'timers';\n\nconst createElement = (attributes)=>{\n    const el = document.createElement('typeahead');\n    if(attributes){\n        Object.keys(attributes).forEach((attr)=>{\n            el.setAttribute(attr,attributes[attr]);\n        })\n    }\n    return new Typeahead(el);\n}\n\ndescribe('Typeahead class',()=>{\n   let typeahead; \n   beforeEach(()=>{\n        typeahead = createElement();\n   });\n   it('should instatntiate',()=>{\n       expect(typeahead).not.toBe(undefined);\n   });\n   describe('methods',()=>{\n    beforeEach(()=>{\n        typeahead = createElement({url:\"http://example.com\",'path-to-title':'my.title'});\n    })\n    it('should set the attributes properly',()=>{\n        expect(typeahead.attributes).toBeDefined();\n        expect(typeahead.attributes.url).toBeDefined();\n        expect(typeahead.attributes.url).toEqual('http://example.com');\n        expect(typeahead.attributes.pathToTitle).toBeDefined();\n        expect(typeahead.attributes.pathToTitle).toEqual('my.title');\n    });\n    it('should call the createTemplate method',()=>{\n        spyOn(typeahead, 'createTemplate').and.callThrough();\n        typeahead.initialize();\n        expect(typeahead.createTemplate).toHaveBeenCalled();\n    })\n    it('should call setInputEvents',()=>{\n        spyOn(typeahead, 'setInputEvents').and.callThrough();\n        typeahead.initialize();\n        expect(typeahead.setInputEvents).toHaveBeenCalled();\n    });\n    it('after calling initialize there should be an input element,template and list',()=>{\n        typeahead.initialize();\n        expect(typeahead.template).toBeDefined();\n        expect(typeahead.template instanceof HTMLElement).toBe(true);\n        expect(typeahead.input).toBeDefined();\n        expect(typeahead.input instanceof HTMLElement).toBe(true);\n        expect(typeahead.list).toBeDefined();\n        expect(typeahead.list instanceof HTMLElement).toBe(true);\n    });\n    it('should have a listManager instance',()=>{\n         typeahead.initialize();\n         expect(typeahead.listManager).toBeDefined();\n         expect(typeahead.listManager instanceof TypeaheadListManager).toBe(true);\n    });\n   });\n   describe('setting the list templates',()=>{\n        it('the list template to be titleOnly when only title attribute is provided',()=>{\n            const typeahead = createElement({'url':'http://example.com','path-to-title':'my.path.to.title'});\n            expect(typeahead.listTemplate()).toContain('title-only')\n        });\n\n        it('the list template to be titleOnly when path-to-title and path-to-subtitle attributes are provided',()=>{\n            const typeahead = createElement(\n                {\n                    'url':'http://example.com',\n                    'path-to-title':'my.path.to.title',\n                    'path-to-subtitle':'my.path.to.title'\n                }\n            );\n            expect(typeahead.listTemplate()).toContain('title-subtitle')\n        });\n\n        it('the list template to be titleOnly when path-to-title and path-to-subtitle attributes are provided',()=>{\n            const typeahead = createElement(\n                {\n                    'url':'http://example.com',\n                    'path-to-title':'my.path.to.title',\n                    'path-to-subtitle':'my.path.to.title',\n                    'path-to-image':'path.to.my.image'\n                }\n            );\n            expect(typeahead.listTemplate()).toContain('title-subtitle-image')\n        });\n   });\n});",
+    "static": true,
+    "longname": "/Users/ego/experimental/typeahead/typeahead/tests/typeahead.spec.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 99,
+    "kind": "function",
+    "name": "createElement",
+    "memberof": "typeahead/tests/typeahead.spec.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "typeahead/tests/typeahead.spec.js~createElement",
+    "access": "public",
+    "export": false,
+    "importPath": "typeahead/typeahead/tests/typeahead.spec.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 5,
+    "undocument": true,
+    "params": [
+      {
+        "name": "attributes",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "kind": "index",
+    "content": "# ES6 Webpack Typeahead Component\nThe component can be initialized in two ways:\n## Initialize only with html\n### in your js file import the typeahead index:\n```javascript\nimport './typeahead';\n```\n### in your html file:\n```html\n    <typeahead id=\"countries\"\n                label=\"Search countries:\"\n                min-symbols=\"2\"\n                url=\"https://mybookapi.eu/rest/v2/name/\"\n                list-wrapper=\"results.hits\"\n                path-to-title=\"book.title\"\n                path-to-subtitle=\"book.authors.0\"\n                path-to-image=\"book.cover.thumbnails.0\"\n    ></typeahead>\n````\n### HTML Attributes:\n\n#### label(optional):\nSets a label to the input\n\n#### min-symbols:\nSets the minimum number of symbols entered in the input before the Ajax request is triggered\nif none is specified 3 is the default one.\n\n### url:\nThe url to which the Ajax request will be made\n\n### list-wrapper:\nThe list-wrapper is the key of the resulting Ajax JSONObject in which the array is contained.\nUsualy when a an Ajax request for a list of item is done it comes back either as an array:\n```javascript\n[\n    {\n        title:'Title1',\n        item:'Item1'\n    },\n     {\n        title:'Title2',\n        item:'Item2'\n    }\n]\n```\nor as an object containing an array:\n```javascript\n{\n    results:{\n        hits:{\n            [\n                {\n                    title:'Title1',\n                    item:'Item1'\n                },\n                 {\n                    title:'Title2',\n                    item:'Item2'\n                }\n            ]\n        }\n    }\n}\n```\nIn order to be able to point the component where exactly is the array we want we need the list-wrapper attribute. \n### path-to-title\nThe path to title attribute is a map that shows us where is the value we want to show as a title in the list item layout and respectively fill the input with when the list item is clicked.Given that we already pointed the path to the list in the JSON object then we need to point the path to the title. Say we've got the following list:\n`````javascript\n{\n    results:{\n        hits:{\n            [\n                {\n                   country:\"Germany\",\n                   book:{\n                        title:\"Meine lieblings Speisen\",\n                        author:\"Max Musterman\"\n                   }\n                },\n                {\n                    country:\"United Kingdom\"\n                    book:{\n                        title:\"My favorite dishes\",\n                        author:\"John Doe\"\n                   }\n                }\n            ]\n        }\n    }\n}\n``````\nIf we want in the title of every item in the suggestion list to be shown the title of the book we would set the path-to-title to:\n```html\npath-to-title=\"book.title\"\n``````\n### path-to-subtitle\nSame as the path-to-title attribute but for the second row (subtitle) of the list item\n\n### path-to-image\nYes we can also show an image! In case there is an image url we can give the location in this attribute and it will be shown in the list item.\n\n## How does it work?\nDepending on what path(s)-to- attributes are given in the <typeahead> different templates of the listItem will be initialized and shown:\n* one showing only title \n* one showing title and subtitle\n* one showing image title and subtitle\n\n## Initialize with js:\nYou can initialize the typeahead programatically aswell by following the example below:\n```javascript\nimport Typeahead from './typeahead/js/typeahead';\nimport TypeaheadListManager from './typeahead/js/listTemplateManager';\n\nconst selectedAddress = document.getElementById('selected-address');\nlet renderer = new TypeaheadListManager();\n//the custom listItemTempalte function\n//this function must contain as parameters title and/or subtitle and/or image\n//also the string we want to show in the input after clicking on the list item\n//must be marked with data-title attribute in order to find it \n\nlet listItemTemplate = title => `<div class=\"custom-template\"><span class=\"title\" data-title>${title}</span></div>`;\n\n//initiate a type ahead manualy by querying the element\nlet manualTypeahead = new Typeahead(document.getElementById('manual-typeahead'))\n    //set the url for the ajax data request\n    .setUrl('https://maps.googleapis.com/maps/api/geocode/json?key=AIzaSyCjm_5NIX5Jr_PGFVO5Te3EHYFPpPG26Qw&address=')\n    //set the input label if desired\n    .setLabel('Search Addres:')\n    //callback when the results from the search are recieved\n    //here we can get the listManager instance from the TypeAhead class instance e.g instance.listManager\n    //format the data from the resultList as we wish \n    //and invoke the render method of the list manager and show the results\n    .onResultsRecieved((resultList,instance)=>{\n        let formatted  = resultList.results.map((item)=>{return {title:item.formatted_address}});\n        instance.listManager.render(formatted,listItemTemplate);\n    })\n    .onItemClicked((value)=>{\n        selectedAddress.innerHTML = \"Selected address: <strong>\"+value+\"</strong>\";\n    })\n    .initialize();\n```",
+    "longname": "/Users/ego/experimental/typeahead/README.md",
+    "name": "./README.md",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "packageJSON",
+    "content": "{\n  \"name\": \"typeahead\",\n  \"version\": \"0.0.1\",\n  \"description\": \"A typeahead tool\",\n  \"main\": \"index.js\",\n  \"scripts\": {\n    \"test\": \"karma start\",\n    \"start\": \"webpack -w & webpack-dev-server --hot\",\n    \"docs\": \"./node_modules/.bin/esdoc\"\n  },\n  \"author\": \"Emiliyan Gospodinov\",\n  \"license\": \"ISC\",\n  \"dependencies\": {\n    \"babel-core\": \"^6.26.0\",\n    \"babel-loader\": \"^7.1.2\",\n    \"babel-polyfill\": \"^6.26.0\",\n    \"babel-preset-es2015\": \"^6.24.1\",\n    \"copy-webpack-plugin\": \"^2.1.6\",\n    \"css-loader\": \"^0.28.9\",\n    \"esdoc\": \"^1.0.4\",\n    \"esdoc-standard-plugin\": \"^1.0.0\",\n    \"html-webpack-plugin\": \"^2.30.1\",\n    \"jasmine-core\": \"^2.9.1\",\n    \"karma\": \"^2.0.0\",\n    \"karma-cli\": \"^1.0.1\",\n    \"karma-jasmine\": \"^1.1.1\",\n    \"karma-webpack\": \"^2.0.9\",\n    \"lodash.debounce\": \"^4.0.8\",\n    \"phantomjs-prebuilt\": \"^2.1.16\",\n    \"source-map-loader\": \"^0.2.3\",\n    \"style-loader\": \"^0.19.1\",\n    \"webpack\": \"^3.10.0\",\n    \"webpack-dev-server\": \"^2.11.0\"\n  },\n  \"devDependencies\": {\n    \"add\": \"^2.0.6\",\n    \"karma-phantomjs-launcher\": \"^1.0.4\"\n  }\n}\n",
+    "longname": "/Users/ego/experimental/typeahead/package.json",
+    "name": "package.json",
+    "static": true,
+    "access": "public"
+  }
+]
