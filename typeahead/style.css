@@ -3,6 +3,10 @@
     border:solid 1px;
 }
 
+.custom-template:last-child{
+    border-top:none;
+}
+
 .custom-template span{
     color:red;
 }
