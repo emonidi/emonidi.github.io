@@ -1,0 +1,4 @@
+.typeahead .result-list{
+    position: absolute;
+    width: calc(100% - 30px);    
+}
